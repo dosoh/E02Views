@@ -23,7 +23,6 @@ public class MainActivity extends AppCompatActivity {
         } else if (id == R.id.action_memo) {
             Toast.makeText(this, "메모장 메뉴 클릭", Toast.LENGTH_SHORT).show();
             return true;
-
         }
         return super.onOptionsItemSelected(item);
     }
